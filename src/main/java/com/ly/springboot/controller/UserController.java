@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    int id = 2;
+    int id = 3;
 
     @Autowired
     UserRepository userRepository;
