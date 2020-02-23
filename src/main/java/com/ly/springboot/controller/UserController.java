@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
+    int id = 1;
+
     @Autowired
     UserRepository userRepository;
 
